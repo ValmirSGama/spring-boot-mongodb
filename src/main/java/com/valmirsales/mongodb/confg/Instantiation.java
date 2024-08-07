@@ -24,7 +24,7 @@ public class Instantiation implements CommandLineRunner {
 	private PostRepository postRepository;
 	
 	@Override
-	public void run(String... arg0) throws Exception {
+	public void run(String... args) throws Exception {
 		
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		sdf.setTimeZone(TimeZone.getTimeZone("GMT"));
